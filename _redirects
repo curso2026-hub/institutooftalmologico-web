@@ -1,0 +1,10 @@
+# Archivos estáticos servidos antes del catch-all de la SPA
+# IMPORTANTE: estas reglas DEBEN ir antes de /* /index.html 200
+
+/llms.txt          /llms.txt          200
+/llms-full.txt     /llms-full.txt     200
+/robots.txt        /robots.txt        200
+/sitemap.xml       /sitemap.xml       200
+
+# Catch-all SPA — debe ser la última regla
+/*                 /index.html        200
