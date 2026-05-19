@@ -31,25 +31,96 @@
     
     <!-- Canonical URL is injected dynamically per route via <CanonicalUrl /> -->
     
-    <!-- Structured Data -->
+    <!-- Structured Data — MedicalClinic @graph (GEO/AEO entity) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "MedicalClinic",
-      "name": "Clínica Oftalmológica Dapena Lavín",
-      "description": "Clínica oftalmológica de referencia en Madrid especializada en cirugía de cataratas, cirugía refractiva, glaucoma, retina y más.",
-      "url": "https://www.institutooftalmologico.net",
-      "telephone": "+34915423684",
-      "email": "info@institutooftalmologico.net",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Paseo Pintor Rosales 26",
-        "addressLocality": "Madrid",
-        "postalCode": "28008",
-        "addressCountry": "ES"
-      },
-      "medicalSpecialty": "Ophthalmology",
-      "openingHours": "Mo-Fr 09:00-20:00"
+      "@graph": [
+        {
+          "@type": "MedicalClinic",
+          "@id": "https://institutooftalmologico.net/#organization",
+          "name": "Instituto Oftalmológico Dapena Lavín",
+          "alternateName": "Clínica Oftalmológica Dapena Lavín",
+          "description": "Clínica oftalmológica de referencia en Madrid fundada en 1984. Especializados en cirugía de cataratas, glaucoma, cirugía refractiva, retina, estrabismo y oculoplástica. Referente nacional en estrabismo y oculoplástica infantil.",
+          "url": "https://institutooftalmologico.net",
+          "telephone": "+34915423684",
+          "email": "info@institutooftalmologico.net",
+          "foundingDate": "1984",
+          "image": "https://institutooftalmologico.net/apple-touch-icon.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Paseo Pintor Rosales 26",
+            "addressLocality": "Madrid",
+            "postalCode": "28008",
+            "addressCountry": "ES"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "40.4239",
+            "longitude": "-3.7151"
+          },
+          "medicalSpecialty": [
+            "Ophthalmology",
+            "https://health-lifesci.schema.org/Optometry"
+          ],
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "09:00",
+              "closes": "20:00"
+            }
+          ],
+          "hasMap": "https://maps.google.com/?q=Paseo+Pintor+Rosales+26,+28008+Madrid",
+          "employee": [
+            {
+              "@type": "Physician",
+              "@id": "https://institutooftalmologico.net/equipo/dr-lavin#physician",
+              "name": "Dr. Cosme Lavín Dapena",
+              "url": "https://institutooftalmologico.net/equipo/dr-lavin",
+              "medicalSpecialty": "Ophthalmology",
+              "sameAs": [
+                "https://drlavin.es",
+                "https://www.doctoralia.es/cosme-lavin-dapena/oftalmologo/madrid"
+              ]
+            },
+            {
+              "@type": "Physician",
+              "name": "Dra. María Teresa Dapena Crespo",
+              "medicalSpecialty": "Ophthalmology",
+              "description": "Referente nacional en estrabismo. Ex Jefa de Servicio del Hospital Universitario Niño Jesús de Madrid."
+            },
+            {
+              "@type": "Physician",
+              "name": "Dra. María Granados",
+              "medicalSpecialty": "Ophthalmology",
+              "description": "Referente mundial en oculoplástica infantil. Especialista en ptosis congénita y cirugía palpebral pediátrica."
+            }
+          ],
+          "sameAs": [
+            "https://www.doctoralia.es/cosme-lavin-dapena/oftalmologo/madrid",
+            "https://drlavin.es"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://institutooftalmologico.net/#website",
+          "url": "https://institutooftalmologico.net",
+          "name": "Instituto Oftalmológico Dapena Lavín",
+          "publisher": {
+            "@id": "https://institutooftalmologico.net/#organization"
+          },
+          "inLanguage": "es-ES",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://institutooftalmologico.net/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
     }
     </script>
     <meta property="og:title" content="Clínica Oftalmológica Dapena Lavín | Expertos en Salud Visual en Madrid">
@@ -59,11 +130,11 @@
   <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5fedc5-4aa3-4bfb-b65e-28329fb2e299/id-preview-6be4756d--f8893ad5-5955-4de5-b16c-e3fb236e44f1.lovable.app-1772583818106.png">
   <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5fedc5-4aa3-4bfb-b65e-28329fb2e299/id-preview-6be4756d--f8893ad5-5955-4de5-b16c-e3fb236e44f1.lovable.app-1772583818106.png">
   <meta name="google-site-verification" content="IOMb6mUQycOPnM4AAcxm8qSyOrKT0cWS2H3FLDVZduE" />
-  <script type="module" crossorigin src="/assets/index-CZJGeRV7.js"></script>
+  <script type="module" crossorigin src="/assets/index-CM1iH6qB.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/vendor-react-CRDlltRq.js">
   <link rel="modulepreload" crossorigin href="/assets/vendor-radix-C2NLjVRh.js">
   <link rel="modulepreload" crossorigin href="/assets/vendor-router-yFHaCYbw.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-BgqO1jNH.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-CtcaV2or.css">
 </head>
 
   <body>
