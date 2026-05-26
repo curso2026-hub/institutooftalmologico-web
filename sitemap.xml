@@ -13,9 +13,11 @@
   <url><loc>https://institutooftalmologico.net/tratamientos/cornea</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/tratamientos/oftalmologia-pediatrica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/sintomas-de-cataratas</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/glaucoma-enfermedad-silenciosa</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/cuando-operar-miopia-laser</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/sintomas-de-cataratas/</loc><lastmod>2025-05-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/glaucoma-enfermedad-silenciosa/</loc><lastmod>2025-05-10</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/cuando-operar-miopia-laser/</loc><lastmod>2025-05-17</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/ojo-seco-tratamiento/</loc><lastmod>2025-06-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/estrabismo-infantil-tratamiento/</loc><lastmod>2025-06-08</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog/dmae-perdida-vision-central</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog/queratocono-diagnostico-y-tratamiento</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog/ojo-seco-mas-que-molestia</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
