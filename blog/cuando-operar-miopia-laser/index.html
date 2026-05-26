@@ -1,177 +1,201 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#4D413B" />
-    <meta name="robots" content="index, follow" />
-
-    <!-- Preload LCP image — hero background cargado antes de que React arranque -->
-    <link rel="preload" href="/lovable-uploads/5539186c-7808-45fe-941c-516b5fd85e3b.png" as="image" fetchpriority="high" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Fonts: preload → non-blocking stylesheet (replaces @import in CSS) -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" /></noscript>
-
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    
-    <title>Clínica Oftalmológica Dapena Lavín | Madrid</title>
-    <meta name="description" content="Clínica oftalmológica de referencia en Madrid. Expertos en cataratas, cirugía refractiva, glaucoma, retina. +40 años de experiencia. Pide cita: 915 423 684">
-    <meta name="author" content="Clínica Oftalmológica Dapena Lavín" />
-    <meta name="keywords" content="oftalmólogo madrid, clínica oftalmológica, cirugía cataratas, cirugía refractiva, glaucoma, retina, Dapena Lavín" />
-
-    
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.institutooftalmologico.net" />
-    <meta property="og:locale" content="es_ES" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    
-    
-    <!-- Canonical URL is injected dynamically per route via <CanonicalUrl /> -->
-    
-    <!-- Structured Data — MedicalClinic @graph (GEO/AEO entity) -->
-    <script type="application/ld+json">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GTDZ5CS3X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9GTDZ5CS3X');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4D413B" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="kGSkhTclAg-Wytr_RO_fcnFrfEytrG9zDi4LibbkCXE" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="canonical" href="https://institutooftalmologico.net/blog/cuando-operar-miopia-laser/" />
+  <title>Cuándo Operar la Miopía con Láser en Madrid | Instituto Dapena Lavín</title>
+  <meta name="description" content="Edad mínima, graduación estable, grosor corneal... Los requisitos para la cirugía láser de miopía en Madrid. Consulta gratuita en Instituto Dapena Lavín." />
+  <meta name="author" content="Dr. Cosme Lavín Dapena — Clínica Oftalmológica Dapena Lavín" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://institutooftalmologico.net/blog/cuando-operar-miopia-laser/" />
+  <meta property="og:title" content="Cuándo Operar la Miopía con Láser en Madrid | Instituto Dapena Lavín" />
+  <meta property="og:description" content="Edad mínima, graduación estable, grosor corneal... Los requisitos para la cirugía láser de miopía en Madrid. Consulta gratuita en Instituto Dapena Lavín." />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="article:published_time" content="2025-05-17T00:00:00+02:00" />
+  <meta property="article:author" content="Dr. Cosme Lavín Dapena" />
+  <meta property="article:section" content="Cirugía Refractiva" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Cuándo Operar la Miopía con Láser en Madrid | Instituto Dapena Lavín" />
+  <meta name="twitter:description" content="Edad mínima, graduación estable, grosor corneal... Los requisitos para la cirugía láser de miopía en Madrid. Consulta gratuita en Instituto Dapena Lavín." />
+  <link rel="stylesheet" crossorigin href="/assets/index-DDlRKqER.css" />
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+      "@type": "MedicalWebPage",
+      "@id": "https://institutooftalmologico.net/blog/cuando-operar-miopia-laser/#webpage",
+      "url": "https://institutooftalmologico.net/blog/cuando-operar-miopia-laser/",
+      "name": "Cuándo Operar la Miopía con Láser en Madrid | Instituto Dapena Lavín",
+      "description": "Edad mínima, graduación estable, grosor corneal... Los requisitos para la cirugía láser de miopía en Madrid. Consulta gratuita en Instituto Dapena Lavín.",
+      "datePublished": "2025-05-17",
+      "dateModified": "2025-05-27",
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Cosme Lavín Dapena",
+        "url": "https://drlavin.es",
+        "jobTitle": "Oftalmólogo especialista en glaucoma y cirugía refractiva",
+        "worksFor": {
           "@type": "MedicalClinic",
-          "@id": "https://institutooftalmologico.net/#organization",
           "name": "Clínica Oftalmológica Dapena Lavín",
-          "alternateName": "Instituto Oftalmológico Dapena Lavín",
-          "description": "Clínica oftalmológica de referencia en Madrid fundada en 1984. Especializados en cirugía de cataratas, glaucoma, cirugía refractiva, retina, estrabismo y oculoplástica. Referente nacional en estrabismo y oculoplástica infantil.",
-          "url": "https://institutooftalmologico.net",
-          "telephone": "+34915423684",
-          "email": "info@institutooftalmologico.net",
-          "foundingDate": "1984",
-          "image": "https://institutooftalmologico.net/apple-touch-icon.png",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Paseo Pintor Rosales 26",
-            "addressLocality": "Madrid",
-            "postalCode": "28008",
-            "addressCountry": "ES"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "40.4239",
-            "longitude": "-3.7151"
-          },
-          "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "09:00",
-              "closes": "20:00"
-            }
-          ],
-          "hasMap": "https://maps.google.com/?cid=1092701001692918822",
-          "employee": [
-            {
-              "@type": "Person",
-              "@id": "https://institutooftalmologico.net/equipo/dr-lavin#physician",
-              "name": "Dr. Cosme Lavín Dapena",
-              "url": "https://institutooftalmologico.net/equipo/dr-lavin",
-              "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-              "sameAs": [
-                "https://www.wikidata.org/wiki/Q98563916",
-                "https://www.drlavin.es",
-                "https://www.doctoralia.es/cosme-lavin-dapena/oftalmologo/madrid",
-                "https://www.researchgate.net/profile/Cosme-Lavin-Dapena",
-                "https://es.linkedin.com/in/cosme-lavin-dapena-30574643",
-                "https://www.estrabologia.org/staff/cosme-lavin-dapena/"
-              ]
-            },
-            {
-              "@type": "Person",
-              "name": "Dra. María Teresa Dapena Crespo",
-              "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-              "description": "Referente nacional en estrabismo. Ex Jefa de Servicio del Hospital Universitario Niño Jesús de Madrid."
-            },
-            {
-              "@type": "Person",
-              "name": "Dra. María Granados",
-              "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-              "description": "Referente mundial en oculoplástica infantil. Especialista en ptosis congénita y cirugía palpebral pediátrica."
-            }
-          ],
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q139860441",
-            "https://maps.google.com/?cid=1092701001692918822",
-            "https://www.doctoralia.es/cosme-lavin-dapena/oftalmologo/madrid",
-            "https://www.drlavin.es",
-            "https://www.instagram.com/instituto_oftalmologico_dapena/",
-            "https://www.facebook.com/InstitutooftalmologicoDapenaLavin/",
-            "https://www.yelp.com/biz/instituto-oftalmologico-dapena-lavin-madrid"
-          ]
+          "url": "https://institutooftalmologico.net"
+        }
+      },
+      "publisher": {
+        "@type": "MedicalClinic",
+        "@id": "https://institutooftalmologico.net/#organization",
+        "name": "Clínica Oftalmológica Dapena Lavín",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://institutooftalmologico.net/apple-touch-icon.png"
+        }
+      },
+      "medicalAudience": {
+        "@type": "MedicalAudience",
+        "audienceType": "Patient"
+      },
+      "inLanguage": "es-ES"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿A partir de qué graduación se puede operar la miopía con láser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La cirugía láser es adecuada para miopías de entre -0,5 y -10 dioptrías aproximadamente, siempre que la graduación sea estable al menos 2 años y la córnea tenga grosor suficiente."
+          }
         },
         {
-          "@type": "WebSite",
-          "@id": "https://institutooftalmologico.net/#website",
-          "url": "https://institutooftalmologico.net",
-          "name": "Clínica Oftalmológica Dapena Lavín",
-          "publisher": {
-            "@id": "https://institutooftalmologico.net/#organization"
-          },
-          "inLanguage": "es-ES",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-              "@type": "EntryPoint",
-              "urlTemplate": "https://institutooftalmologico.net/?q={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
+          "@type": "Question",
+          "name": "¿Cuándo es el mejor momento para operarse de miopía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La edad ideal es entre los 20 y los 40 años, cuando la miopía ya es estable. Es fundamental que la graduación no haya variado más de 0,5 dioptrías en los últimos 2 años."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es segura la cirugía láser de miopía?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, es una de las cirugías refractivas más seguras y contrastadas. Más de 40 millones de procedimientos realizados en el mundo avalan su seguridad y eficacia, con tasa de satisfacción superior al 95%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto dura la operación de miopía láser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El procedimiento láser en sí dura apenas 30-60 segundos por ojo. El tiempo total en quirófano es de unos 15-20 minutos. La recuperación visual es progresiva durante las primeras semanas."
           }
         }
       ]
     }
-    </script>
-    <meta property="og:title" content="Clínica Oftalmológica Dapena Lavín | Expertos en Salud Visual en Madrid">
-  <meta name="twitter:title" content="Clínica Oftalmológica Dapena Lavín | Expertos en Salud Visual en Madrid">
-  <meta property="og:description" content="Clínica oftalmológica de referencia en Madrid. Expertos en cataratas, cirugía refractiva, glaucoma, retina. +40 años de experiencia. Pide cita: 915 423 684">
-  <meta name="twitter:description" content="Clínica oftalmológica de referencia en Madrid. Expertos en cataratas, cirugía refractiva, glaucoma, retina. +40 años de experiencia. Pide cita: 915 423 684">
-  <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5fedc5-4aa3-4bfb-b65e-28329fb2e299/id-preview-6be4756d--f8893ad5-5955-4de5-b16c-e3fb236e44f1.lovable.app-1772583818106.png">
-  <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5fedc5-4aa3-4bfb-b65e-28329fb2e299/id-preview-6be4756d--f8893ad5-5955-4de5-b16c-e3fb236e44f1.lovable.app-1772583818106.png">
-  <meta name="google-site-verification" content="IOMb6mUQycOPnM4AAcxm8qSyOrKT0cWS2H3FLDVZduE" />
-  <script type="module" crossorigin src="/assets/index-BVAJoPwV.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/vendor-react-CRDlltRq.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-radix-C2NLjVRh.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-ui-uG5jm75V.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-icons-BaEJ3f_v.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-query-CdGOF_0a.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-router-yFHaCYbw.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-DDlRKqER.css">
+  ]
+}
+  </script>
 </head>
+<body>
+  <div id="root">
+    <!-- Pre-rendered content for crawlers — React hydrates on client -->
+    <article class="blog-post-prerender" itemscope itemtype="https://schema.org/MedicalWebPage" style="max-width:800px;margin:0 auto;padding:2rem 1rem;font-family:Inter,sans-serif;line-height:1.7;color:#333">
+      <header>
+        <nav style="font-size:.85rem;color:#888;margin-bottom:1rem">
+          <a href="/" style="color:#4D413B">Inicio</a> › 
+          <a href="/blog" style="color:#4D413B">Blog</a> › 
+          <span>Cirugía Refractiva</span>
+        </nav>
+        <h1 itemprop="headline" style="font-family:'Cormorant Garamond',serif;font-size:2rem;line-height:1.2;color:#1a1a1a">¿Cuándo es el Momento Ideal para Operarse la Miopía con Láser?</h1>
+        <p style="color:#666;font-size:.9rem;margin-top:.5rem">
+          Por <strong itemprop="author">Dr. Cosme Lavín Dapena</strong> · 
+          <time itemprop="datePublished" datetime="2025-05-17">2025-05-17</time> · 
+          5 min de lectura · Cirugía Refractiva
+        </p>
+      </header>
+      <div itemprop="text">
+        <h2>Cirugía láser de miopía: ¿para quién y cuándo?</h2>
+<p>La cirugía refractiva con láser (LASIK, PRK o SMILE) corrige la miopía de forma permanente. Sin embargo, <strong>no toda graduación ni toda córnea es apta</strong>. Conocer los criterios de selección es fundamental para obtener un resultado seguro y duradero.</p>
+<h2>Requisitos para ser buen candidato</h2>
+<ul>
+<li><strong>Edad mínima de 18-21 años</strong> y, preferiblemente, que la graduación lleve al menos 2 años estable.</li>
+<li><strong>Grosor corneal suficiente</strong>: la córnea debe tener espesor adecuado para el tejido que se va a tratar.</li>
+<li><strong>Ausencia de enfermedades corneales</strong>: el queratocono o la distrofia corneal contraindican la cirugía láser estándar.</li>
+<li><strong>Pupilas no excesivamente grandes</strong> en condiciones escotópicas.</li>
+<li><strong>Sequedad ocular controlada</strong>: el ojo seco severo puede empeorar tras el láser.</li>
+</ul>
+<h2>¿Cuál es la mejor técnica: LASIK, PRK o SMILE?</h2>
+<p>Depende de la anatomía de cada paciente:</p>
+<ul>
+<li><strong>LASIK</strong>: el más extendido, recuperación rápida, apto para miopías de hasta -10 D.</li>
+<li><strong>PRK/LASEK</strong>: ideal si la córnea es más fina o el paciente practica deportes de contacto.</li>
+<li><strong>SMILE</strong>: la técnica más moderna, sin flap, mayor estabilidad biomecánica.</li>
+</ul>
+<h2>Experiencia clínica: lo que aprendemos de 40 años de cirugía refractiva</h2>
+<p>El <strong>Dr. Cosme Lavín Dapena</strong> ha realizado miles de cirugías refractivas en Madrid. Su criterio de selección va más allá de los parámetros estándar: <em>"La topografía corneal es obligatoria antes de cualquier láser. Un patrón de ectasia incipiente que escapa a la biomicroscopía puede arruinar un resultado que parecía perfecto sobre el papel."</em></p>
+<p>En la Clínica Dapena Lavín realizamos la valoración preoperatoria completa con topografía Pentacam, paquimetría y análisis de las aberraciones de alto orden. No realizamos cirugía si hay la menor duda sobre la integridad corneal.</p>
+<h2>¿Qué pasa si no soy candidato al láser?</h2>
+<p>En ese caso, existen alternativas como las <strong>lentes fáquicas ICL</strong>, que se implantan sin extraer el cristalino natural. Son especialmente útiles en miopías altas o córneas finas.</p>
+<h2>Preguntas frecuentes</h2>
+<h3>¿La operación de miopía es definitiva?</h3>
+<p>Sí para la miopía preexistente. Sin embargo, a partir de los 45 años puede aparecer presbicia (vista cansada), que es un proceso diferente e independiente.</p>
+<h3>¿Duele la cirugía láser de miopía?</h3>
+<p>No. Se realiza con anestesia en gotas, dura unos 10 minutos por ojo y la recuperación visual es en 24-48 horas.</p>
+      </div>
+      <section aria-label="Preguntas frecuentes" itemscope itemtype="https://schema.org/FAQPage" style="margin-top:2rem;padding:1.5rem;background:#f8f5f2;border-radius:8px">
+        <h2 style="font-family:'Cormorant Garamond',serif;margin-top:0">Preguntas frecuentes</h2>
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿A partir de qué graduación se puede operar la miopía con láser?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">La cirugía láser es adecuada para miopías de entre -0,5 y -10 dioptrías aproximadamente, siempre que la graduación sea estable al menos 2 años y la córnea tenga grosor suficiente.</p>
+  </div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿Cuándo es el mejor momento para operarse de miopía?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">La edad ideal es entre los 20 y los 40 años, cuando la miopía ya es estable. Es fundamental que la graduación no haya variado más de 0,5 dioptrías en los últimos 2 años.</p>
+  </div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿Es segura la cirugía láser de miopía?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">Sí, es una de las cirugías refractivas más seguras y contrastadas. Más de 40 millones de procedimientos realizados en el mundo avalan su seguridad y eficacia, con tasa de satisfacción superior al 95%.</p>
+  </div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿Cuánto dura la operación de miopía láser?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">El procedimiento láser en sí dura apenas 30-60 segundos por ojo. El tiempo total en quirófano es de unos 15-20 minutos. La recuperación visual es progresiva durante las primeras semanas.</p>
+  </div>
+</div>
 
-  <body>
-    <div id="root"></div>
-    <!-- GEO: Blog post content para crawlers IA -->
-  <noscript>
-    <article itemscope itemtype="https://schema.org/BlogPosting">
-      <h1 itemprop="headline">¿Cuándo es el Momento Ideal para Operarse la Miopía con Láser?</h1>
-      <p itemprop="description">La cirugía láser de miopía libera de gafas y lentillas de forma definitiva. Pero no todos los candidatos son iguales ni todos los momentos son iguales.</p>
-      <section>
-        <h2>Preguntas frecuentes</h2>
-        <dl>
-          <dt>¿A partir de qué graduación se puede operar la miopía con láser?</dt>
-          <dd>La cirugía láser es adecuada para miopías de entre -0,5 y -10 dioptrías aproximadamente, siempre que la graduación sea estable al menos 2 años y la córnea tenga grosor suficiente.</dd>
-          <dt>¿Cuándo es el mejor momento para operarse de miopía?</dt>
-          <dd>La edad ideal es entre los 20 y los 40 años, cuando la miopía ya es estable. Es fundamental que la graduación no haya variado más de 0,5 dioptrías en los últimos 2 años.</dd>
-          <dt>¿Es segura la cirugía láser de miopía?</dt>
-          <dd>Sí, es una de las cirugías refractivas más seguras y contrastadas. Más de 40 millones de procedimientos realizados en el mundo avalan su seguridad y eficacia, con tasa de satisfacción superior al 95%.</dd>
-          <dt>¿Cuánto dura la operación de miopía láser?</dt>
-          <dd>El procedimiento láser en sí dura apenas 30-60 segundos por ojo. El tiempo total en quirófano es de unos 15-20 minutos. La recuperación visual es progresiva durante las primeras semanas.</dd>
-        </dl>
       </section>
-      <p>Por el <a href="https://institutooftalmologico.net/equipo/dr-lavin">Dr. Cosme Lavín Dapena</a> — <a href="https://institutooftalmologico.net/blog">Blog oftalmológico</a></p>
+      <footer style="margin-top:2rem;padding:1.5rem;border:1px solid #e5e0da;border-radius:8px;text-align:center">
+        <p><strong>Clínica Oftalmológica Dapena Lavín</strong><br>
+        Paseo Pintor Rosales 26, 28008 Madrid<br>
+        <a href="tel:+34915423684" style="color:#4D413B">915 423 684</a> · 
+        <a href="/contacto" style="color:#4D413B">Pedir cita</a></p>
+      </footer>
     </article>
-  </noscript>
+  </div>
+  <script type="module" crossorigin src="/assets/index-BVAJoPwV.js"></script>
 </body>
 </html>
