@@ -1,177 +1,198 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#4D413B" />
-    <meta name="robots" content="index, follow" />
-
-    <!-- Preload LCP image — hero background cargado antes de que React arranque -->
-    <link rel="preload" href="/lovable-uploads/5539186c-7808-45fe-941c-516b5fd85e3b.png" as="image" fetchpriority="high" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Fonts: preload → non-blocking stylesheet (replaces @import in CSS) -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" /></noscript>
-
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    
-    <title>Clínica Oftalmológica Dapena Lavín | Madrid</title>
-    <meta name="description" content="Clínica oftalmológica de referencia en Madrid. Expertos en cataratas, cirugía refractiva, glaucoma, retina. +40 años de experiencia. Pide cita: 915 423 684">
-    <meta name="author" content="Clínica Oftalmológica Dapena Lavín" />
-    <meta name="keywords" content="oftalmólogo madrid, clínica oftalmológica, cirugía cataratas, cirugía refractiva, glaucoma, retina, Dapena Lavín" />
-
-    
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.institutooftalmologico.net" />
-    <meta property="og:locale" content="es_ES" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    
-    
-    <!-- Canonical URL is injected dynamically per route via <CanonicalUrl /> -->
-    
-    <!-- Structured Data — MedicalClinic @graph (GEO/AEO entity) -->
-    <script type="application/ld+json">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GTDZ5CS3X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9GTDZ5CS3X');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4D413B" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="kGSkhTclAg-Wytr_RO_fcnFrfEytrG9zDi4LibbkCXE" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="canonical" href="https://institutooftalmologico.net/blog/sintomas-de-cataratas/" />
+  <title>Síntomas de Cataratas: 7 Señales Clave | Instituto Dapena Lavín Madrid</title>
+  <meta name="description" content="Visión borrosa, halos nocturnos, deslumbramiento... Conoce los 7 síntomas de cataratas y cuándo acudir al oftalmólogo. Clínica en Madrid desde 1984." />
+  <meta name="author" content="Dr. Cosme Lavín Dapena — Clínica Oftalmológica Dapena Lavín" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://institutooftalmologico.net/blog/sintomas-de-cataratas/" />
+  <meta property="og:title" content="Síntomas de Cataratas: 7 Señales Clave | Instituto Dapena Lavín Madrid" />
+  <meta property="og:description" content="Visión borrosa, halos nocturnos, deslumbramiento... Conoce los 7 síntomas de cataratas y cuándo acudir al oftalmólogo. Clínica en Madrid desde 1984." />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="article:published_time" content="2025-05-03T00:00:00+02:00" />
+  <meta property="article:author" content="Dr. Cosme Lavín Dapena" />
+  <meta property="article:section" content="Cataratas" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Síntomas de Cataratas: 7 Señales Clave | Instituto Dapena Lavín Madrid" />
+  <meta name="twitter:description" content="Visión borrosa, halos nocturnos, deslumbramiento... Conoce los 7 síntomas de cataratas y cuándo acudir al oftalmólogo. Clínica en Madrid desde 1984." />
+  <link rel="stylesheet" crossorigin href="/assets/index-DDlRKqER.css" />
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+      "@type": "MedicalWebPage",
+      "@id": "https://institutooftalmologico.net/blog/sintomas-de-cataratas/#webpage",
+      "url": "https://institutooftalmologico.net/blog/sintomas-de-cataratas/",
+      "name": "Síntomas de Cataratas: 7 Señales Clave | Instituto Dapena Lavín Madrid",
+      "description": "Visión borrosa, halos nocturnos, deslumbramiento... Conoce los 7 síntomas de cataratas y cuándo acudir al oftalmólogo. Clínica en Madrid desde 1984.",
+      "datePublished": "2025-05-03",
+      "dateModified": "2025-05-27",
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Cosme Lavín Dapena",
+        "url": "https://drlavin.es",
+        "jobTitle": "Oftalmólogo especialista en glaucoma y cirugía refractiva",
+        "worksFor": {
           "@type": "MedicalClinic",
-          "@id": "https://institutooftalmologico.net/#organization",
           "name": "Clínica Oftalmológica Dapena Lavín",
-          "alternateName": "Instituto Oftalmológico Dapena Lavín",
-          "description": "Clínica oftalmológica de referencia en Madrid fundada en 1984. Especializados en cirugía de cataratas, glaucoma, cirugía refractiva, retina, estrabismo y oculoplástica. Referente nacional en estrabismo y oculoplástica infantil.",
-          "url": "https://institutooftalmologico.net",
-          "telephone": "+34915423684",
-          "email": "info@institutooftalmologico.net",
-          "foundingDate": "1984",
-          "image": "https://institutooftalmologico.net/apple-touch-icon.png",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Paseo Pintor Rosales 26",
-            "addressLocality": "Madrid",
-            "postalCode": "28008",
-            "addressCountry": "ES"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "40.4239",
-            "longitude": "-3.7151"
-          },
-          "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "09:00",
-              "closes": "20:00"
-            }
-          ],
-          "hasMap": "https://maps.google.com/?cid=1092701001692918822",
-          "employee": [
-            {
-              "@type": "Person",
-              "@id": "https://institutooftalmologico.net/equipo/dr-lavin#physician",
-              "name": "Dr. Cosme Lavín Dapena",
-              "url": "https://institutooftalmologico.net/equipo/dr-lavin",
-              "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-              "sameAs": [
-                "https://www.wikidata.org/wiki/Q98563916",
-                "https://www.drlavin.es",
-                "https://www.doctoralia.es/cosme-lavin-dapena/oftalmologo/madrid",
-                "https://www.researchgate.net/profile/Cosme-Lavin-Dapena",
-                "https://es.linkedin.com/in/cosme-lavin-dapena-30574643",
-                "https://www.estrabologia.org/staff/cosme-lavin-dapena/"
-              ]
-            },
-            {
-              "@type": "Person",
-              "name": "Dra. María Teresa Dapena Crespo",
-              "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-              "description": "Referente nacional en estrabismo. Ex Jefa de Servicio del Hospital Universitario Niño Jesús de Madrid."
-            },
-            {
-              "@type": "Person",
-              "name": "Dra. María Granados",
-              "medicalSpecialty": "https://health-lifesci.schema.org/Optometry",
-              "description": "Referente mundial en oculoplástica infantil. Especialista en ptosis congénita y cirugía palpebral pediátrica."
-            }
-          ],
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q139860441",
-            "https://maps.google.com/?cid=1092701001692918822",
-            "https://www.doctoralia.es/cosme-lavin-dapena/oftalmologo/madrid",
-            "https://www.drlavin.es",
-            "https://www.instagram.com/instituto_oftalmologico_dapena/",
-            "https://www.facebook.com/InstitutooftalmologicoDapenaLavin/",
-            "https://www.yelp.com/biz/instituto-oftalmologico-dapena-lavin-madrid"
-          ]
+          "url": "https://institutooftalmologico.net"
+        }
+      },
+      "publisher": {
+        "@type": "MedicalClinic",
+        "@id": "https://institutooftalmologico.net/#organization",
+        "name": "Clínica Oftalmológica Dapena Lavín",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://institutooftalmologico.net/apple-touch-icon.png"
+        }
+      },
+      "medicalAudience": {
+        "@type": "MedicalAudience",
+        "audienceType": "Patient"
+      },
+      "inLanguage": "es-ES"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los primeros síntomas de las cataratas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los primeros síntomas son visión borrosa o nublada, sensibilidad aumentada a la luz y a los destellos, dificultad para ver de noche y percepción de los colores más apagados o amarillentos."
+          }
         },
         {
-          "@type": "WebSite",
-          "@id": "https://institutooftalmologico.net/#website",
-          "url": "https://institutooftalmologico.net",
-          "name": "Clínica Oftalmológica Dapena Lavín",
-          "publisher": {
-            "@id": "https://institutooftalmologico.net/#organization"
-          },
-          "inLanguage": "es-ES",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-              "@type": "EntryPoint",
-              "urlTemplate": "https://institutooftalmologico.net/?q={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
+          "@type": "Question",
+          "name": "¿A qué edad aparecen las cataratas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las cataratas relacionadas con el envejecimiento suelen aparecer a partir de los 60 años, aunque pueden desarrollarse antes por factores como diabetes, traumatismos oculares o uso prolongado de corticoides."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tienen cura las cataratas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La única solución eficaz es la cirugía de cataratas, que consiste en extraer el cristalino opaco y sustituirlo por una lente intraocular artificial. Es una de las operaciones más seguras y frecuentes en oftalmología."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto dura la operación de cataratas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La cirugía de cataratas dura entre 15 y 30 minutos por ojo y se realiza con anestesia local. La recuperación visual es rápida, con mejora notable en las primeras 24-48 horas."
           }
         }
       ]
     }
-    </script>
-    <meta property="og:title" content="Clínica Oftalmológica Dapena Lavín | Expertos en Salud Visual en Madrid">
-  <meta name="twitter:title" content="Clínica Oftalmológica Dapena Lavín | Expertos en Salud Visual en Madrid">
-  <meta property="og:description" content="Clínica oftalmológica de referencia en Madrid. Expertos en cataratas, cirugía refractiva, glaucoma, retina. +40 años de experiencia. Pide cita: 915 423 684">
-  <meta name="twitter:description" content="Clínica oftalmológica de referencia en Madrid. Expertos en cataratas, cirugía refractiva, glaucoma, retina. +40 años de experiencia. Pide cita: 915 423 684">
-  <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5fedc5-4aa3-4bfb-b65e-28329fb2e299/id-preview-6be4756d--f8893ad5-5955-4de5-b16c-e3fb236e44f1.lovable.app-1772583818106.png">
-  <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5fedc5-4aa3-4bfb-b65e-28329fb2e299/id-preview-6be4756d--f8893ad5-5955-4de5-b16c-e3fb236e44f1.lovable.app-1772583818106.png">
-  <meta name="google-site-verification" content="IOMb6mUQycOPnM4AAcxm8qSyOrKT0cWS2H3FLDVZduE" />
-  <script type="module" crossorigin src="/assets/index-BVAJoPwV.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/vendor-react-CRDlltRq.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-radix-C2NLjVRh.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-ui-uG5jm75V.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-icons-BaEJ3f_v.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-query-CdGOF_0a.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-router-yFHaCYbw.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-DDlRKqER.css">
+  ]
+}
+  </script>
 </head>
+<body>
+  <div id="root">
+    <!-- Pre-rendered content for crawlers — React hydrates on client -->
+    <article class="blog-post-prerender" itemscope itemtype="https://schema.org/MedicalWebPage" style="max-width:800px;margin:0 auto;padding:2rem 1rem;font-family:Inter,sans-serif;line-height:1.7;color:#333">
+      <header>
+        <nav style="font-size:.85rem;color:#888;margin-bottom:1rem">
+          <a href="/" style="color:#4D413B">Inicio</a> › 
+          <a href="/blog" style="color:#4D413B">Blog</a> › 
+          <span>Cataratas</span>
+        </nav>
+        <h1 itemprop="headline" style="font-family:'Cormorant Garamond',serif;font-size:2rem;line-height:1.2;color:#1a1a1a">Síntomas de Cataratas: 7 Señales de que Necesitas una Revisión</h1>
+        <p style="color:#666;font-size:.9rem;margin-top:.5rem">
+          Por <strong itemprop="author">Dr. Cosme Lavín Dapena</strong> · 
+          <time itemprop="datePublished" datetime="2025-05-03">2025-05-03</time> · 
+          5 min de lectura · Cataratas
+        </p>
+      </header>
+      <div itemprop="text">
+        <h2>¿Qué son las cataratas?</h2>
+<p>Las cataratas son la opacificación progresiva del cristalino, la lente natural del ojo. Son la <strong>primera causa de ceguera reversible en el mundo</strong> y afectan principalmente a mayores de 60 años, aunque pueden aparecer antes.</p>
+<h2>Los 7 síntomas más frecuentes</h2>
+<ol>
+<li><strong>Visión borrosa o nublada</strong>: como ver a través de un cristal empañado, que no mejora con gafas.</li>
+<li><strong>Sensibilidad extrema a la luz</strong>: el sol o los faros de los coches resultan dolorosos o deslumbrantes.</li>
+<li><strong>Halos alrededor de las luces</strong>: especialmente visibles al conducir de noche.</li>
+<li><strong>Colores apagados o amarillentos</strong>: los blancos parecen amarillos y los colores pierden viveza.</li>
+<li><strong>Visión doble en un ojo</strong>: ver dos imágenes superpuestas con un solo ojo.</li>
+<li><strong>Cambios frecuentes de graduación</strong>: la receta de gafas cambia cada pocos meses sin estabilizarse.</li>
+<li><strong>Dificultad para leer con poca luz</strong>: necesitas más iluminación que antes para las mismas tareas.</li>
+</ol>
+<h2>Experiencia clínica: lo que observamos en consulta</h2>
+<p>En la <strong>Clínica Oftalmológica Dapena Lavín</strong>, llevamos más de 40 años diagnosticando y operando cataratas. Un patrón frecuente que observamos: los pacientes acuden cuando ya han reducido su conducción nocturna por miedo al deslumbramiento, o cuando han cambiado de gafas dos veces en un año sin mejoría. Estos son señales inequívocas de que el cristalino ha perdido transparencia.</p>
+<p>El <strong>Dr. Cosme Lavín Dapena</strong>, especialista en cirugía refractiva y de segmento anterior, explica: <em>"La catarata no es urgente el primer día, pero tampoco debe demorarse indefinidamente. Operamos cuando la visión interfiere en la calidad de vida del paciente, no cuando la densidad del cristalino alcanza un valor arbitrario."</em></p>
+<h2>¿Cuándo consultar al oftalmólogo?</h2>
+<p>Si experimentas uno o más de estos síntomas, es el momento de pedir una revisión. La cirugía de cataratas es hoy ambulatoria, sin puntos y con una recuperación de 24-48 horas. Cuanto antes se detecta, mejor es el pronóstico visual.</p>
+<h2>Preguntas frecuentes</h2>
+<h3>¿Las cataratas se pueden tratar con gotas?</h3>
+<p>No. Las gotas pueden ralentizar levemente la progresión, pero el único tratamiento definitivo es la cirugía de extracción del cristalino opaco.</p>
+<h3>¿Duele la operación de cataratas?</h3>
+<p>No. Se realiza con anestesia local en gotas y el paciente está cómodo durante todo el procedimiento, que dura aproximadamente 15 minutos.</p>
+<h3>¿A qué edad se operan las cataratas?</h3>
+<p>Cuando afectan a la calidad de vida, independientemente de la edad. En la Clínica Oftalmológica Dapena Lavín evaluamos cada caso de forma individualizada.</p>
+      </div>
+      <section aria-label="Preguntas frecuentes" itemscope itemtype="https://schema.org/FAQPage" style="margin-top:2rem;padding:1.5rem;background:#f8f5f2;border-radius:8px">
+        <h2 style="font-family:'Cormorant Garamond',serif;margin-top:0">Preguntas frecuentes</h2>
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿Cuáles son los primeros síntomas de las cataratas?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">Los primeros síntomas son visión borrosa o nublada, sensibilidad aumentada a la luz y a los destellos, dificultad para ver de noche y percepción de los colores más apagados o amarillentos.</p>
+  </div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿A qué edad aparecen las cataratas?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">Las cataratas relacionadas con el envejecimiento suelen aparecer a partir de los 60 años, aunque pueden desarrollarse antes por factores como diabetes, traumatismos oculares o uso prolongado de corticoides.</p>
+  </div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿Tienen cura las cataratas?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">Sí. La única solución eficaz es la cirugía de cataratas, que consiste en extraer el cristalino opaco y sustituirlo por una lente intraocular artificial. Es una de las operaciones más seguras y frecuentes en oftalmología.</p>
+  </div>
+</div>
+<div class="faq-item" itemscope itemtype="https://schema.org/Question">
+  <h3 itemprop="name">¿Cuánto dura la operación de cataratas?</h3>
+  <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+    <p itemprop="text">La cirugía de cataratas dura entre 15 y 30 minutos por ojo y se realiza con anestesia local. La recuperación visual es rápida, con mejora notable en las primeras 24-48 horas.</p>
+  </div>
+</div>
 
-  <body>
-    <div id="root"></div>
-    <!-- GEO: Blog post content para crawlers IA -->
-  <noscript>
-    <article itemscope itemtype="https://schema.org/BlogPosting">
-      <h1 itemprop="headline">Síntomas de Cataratas: 7 Señales de que Necesitas una Revisión</h1>
-      <p itemprop="description">La catarata es la primera causa de ceguera reversible en el mundo. Conoce las señales de alerta y cuándo es el momento de consultar.</p>
-      <section>
-        <h2>Preguntas frecuentes</h2>
-        <dl>
-          <dt>¿Cuáles son los primeros síntomas de las cataratas?</dt>
-          <dd>Los primeros síntomas son visión borrosa o nublada, sensibilidad aumentada a la luz y a los destellos, dificultad para ver de noche y percepción de los colores más apagados o amarillentos.</dd>
-          <dt>¿A qué edad aparecen las cataratas?</dt>
-          <dd>Las cataratas relacionadas con el envejecimiento suelen aparecer a partir de los 60 años, aunque pueden desarrollarse antes por factores como diabetes, traumatismos oculares o uso prolongado de corticoides.</dd>
-          <dt>¿Tienen cura las cataratas?</dt>
-          <dd>Sí. La única solución eficaz es la cirugía de cataratas, que consiste en extraer el cristalino opaco y sustituirlo por una lente intraocular artificial. Es una de las operaciones más seguras y frecuentes en oftalmología.</dd>
-          <dt>¿Cuánto dura la operación de cataratas?</dt>
-          <dd>La cirugía de cataratas dura entre 15 y 30 minutos por ojo y se realiza con anestesia local. La recuperación visual es rápida, con mejora notable en las primeras 24-48 horas.</dd>
-        </dl>
       </section>
-      <p>Por el <a href="https://institutooftalmologico.net/equipo/dr-lavin">Dr. Cosme Lavín Dapena</a> — <a href="https://institutooftalmologico.net/blog">Blog oftalmológico</a></p>
+      <footer style="margin-top:2rem;padding:1.5rem;border:1px solid #e5e0da;border-radius:8px;text-align:center">
+        <p><strong>Clínica Oftalmológica Dapena Lavín</strong><br>
+        Paseo Pintor Rosales 26, 28008 Madrid<br>
+        <a href="tel:+34915423684" style="color:#4D413B">915 423 684</a> · 
+        <a href="/contacto" style="color:#4D413B">Pedir cita</a></p>
+      </footer>
     </article>
-  </noscript>
+  </div>
+  <script type="module" crossorigin src="/assets/index-BVAJoPwV.js"></script>
 </body>
 </html>
