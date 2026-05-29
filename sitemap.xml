@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://institutooftalmologico.net/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/equipo/dr-lavin</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/cataratas</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/glaucoma</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/estrabismo</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/parpados</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/cirugia-refractiva</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/ojo-seco</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/presbicia</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/retina</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/cornea</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/tratamientos/oftalmologia-pediatrica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/</loc><lastmod>2026-05-29</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/equipo/dr-lavin/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/cataratas/</loc><lastmod>2026-05-29</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/glaucoma/</loc><lastmod>2026-05-29</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/estrabismo/</loc><lastmod>2026-05-29</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/cirugia-refractiva/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/oftalmologia-pediatrica/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/ojo-seco/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/presbicia/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/retina/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/cornea/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/tratamientos/parpados/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog/sintomas-de-cataratas/</loc><lastmod>2025-05-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog/glaucoma-enfermedad-silenciosa/</loc><lastmod>2025-05-10</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://institutooftalmologico.net/blog/cuando-operar-miopia-laser/</loc><lastmod>2025-05-17</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/ojo-seco-tratamiento/</loc><lastmod>2025-06-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/estrabismo-infantil-tratamiento/</loc><lastmod>2025-06-08</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/dmae-perdida-vision-central</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/queratocono-diagnostico-y-tratamiento</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/ojo-seco-mas-que-molestia</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/presbicia-lentes-intraoculares-premium</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/miopia-infantil-control-detenerla</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/eclipse-solar-2026-proteccion-ocular</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/ponencia-oficial-cirugia-glaucomas-100-congreso-seo</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://institutooftalmologico.net/blog/viii-curso-cirugia-glaucoma-madrid-2025</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/ojo-seco-tratamiento/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/estrabismo-infantil-tratamiento/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/dmae-perdida-vision-central/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/queratocono-diagnostico-y-tratamiento/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/ojo-seco-mas-que-molestia/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/presbicia-lentes-intraoculares-premium/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/miopia-infantil-control-detenerla/</loc><lastmod>2026-05-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/eclipse-solar-2026-proteccion-ocular/</loc><lastmod>2026-05-29</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/ponencia-oficial-cirugia-glaucomas-100-congreso-seo/</loc><lastmod>2026-05-29</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://institutooftalmologico.net/blog/viii-curso-cirugia-glaucoma-madrid-2025/</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>
